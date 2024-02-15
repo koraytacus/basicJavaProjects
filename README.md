@@ -1,2 +1,2 @@
 # basicJavaProjects
-This repository include my basic projects on Java  
+This repository contains my basic projects on Java .
