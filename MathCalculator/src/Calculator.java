@@ -8,9 +8,6 @@ public class Calculator {
 		System.out.println(value1 + " " + operation + " " + value2 + " = " + result);
 	}
 	
-	
-
-
 	public static void main(String[] args) {
 
 		Scanner input = new Scanner(System.in); // We create a Scanner Object
@@ -79,12 +76,13 @@ public class Calculator {
 				}
 				break;
 
+				default:
+					System.out.println("Incorrect entry");
+                    break;
 			}
 
 			sign = input.nextLine(); //We are taking new operation sign
-
 		}
-
 		input.close();
 
 	}
