@@ -13,7 +13,7 @@ public class Calculator {
 		Scanner input = new Scanner(System.in); // We create a Scanner Object
 		System.out.println("The App is uploading...");
 		System.out.println(
-				" 1) + -> addition" + " 2) - -> subtraction" + " 3) * -> multiplication" + " 4) / -> division" + " 5) % -> modulus"
+				"1) + -> addition" + " 2) - -> subtraction" + " 3) * -> multiplication" + " 4) / -> division" + " 5) % -> modulus"
 						+ " 6) = -> this sign gives main result of calculation ");
 		System.out.println("You can start the calculation.");
 
