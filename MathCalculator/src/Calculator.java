@@ -15,7 +15,7 @@ public class Calculator {
 		System.out.println(
 				" 1) + -> addition" + " 2) - -> subtraction" + " 3) * -> multiplication" + " 4) / -> division" + " 5) % -> modulus"
 						+ " 6) = -> this sign gives main result of calculation ");
-		System.out.println("You can start the calculation :");
+		System.out.println("You can start the calculation.");
 
 		int result = 0;
 
@@ -29,7 +29,7 @@ public class Calculator {
 			String sign = input.nextLine();// We take a first operation sign
 
 			if (sign.equals("=")) {
-				System.out.println("Sonuç: " + firstNumber); // We determined finished condition for while loop
+				System.out.println("Result: " + firstNumber); // We determined finished condition for while loop
 				break;
 			}
 
