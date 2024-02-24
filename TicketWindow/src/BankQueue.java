@@ -1,4 +1,4 @@
-
+//In this working,I set a basic queue system using with encapsulation.
 import java.util.Scanner;
 
 public class BankQueue {
