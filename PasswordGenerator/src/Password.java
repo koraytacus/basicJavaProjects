@@ -9,15 +9,11 @@ public class Password {
 		
 		char[] numbers = {'0','1','2','3','4','5','6','7','8','9'};
 		
-		
 		char[] signs = {'!', '@', '#', '$', '&', '*', '_', '-', '<', '>', '.', '~'};
-		
-	
-			
+				
 		System.out.println("Welcome to Password Generator...");
 		System.out.println("---------------------------------------");
-		
-		
+	
 		System.out.println("How long password do you want to create:");
 		Scanner input = new Scanner(System.in);
 		Random random = new Random();
@@ -32,7 +28,6 @@ public class Password {
 			
 			switch(randomNumber) {
 			
-			
 			case 0://letter case
 				randomNumber = random.nextInt(26);
 				int randomOtherNumber = random.nextInt(26);
@@ -46,14 +41,10 @@ public class Password {
 					valueOfDigitForLetters = valueOfDigitForLetters.toUpperCase();
 	
 				}else {
-					valueOfDigitForLetters = Character.toString(letters[randomNumber]);;
-					
-					
+					valueOfDigitForLetters = Character.toString(letters[randomNumber]);;	
 				}
 				password+=valueOfDigitForLetters;
-				
-				
-				
+						
 				break;
 			case 1://number case
 				randomNumber = random.nextInt(10);
